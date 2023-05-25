@@ -21,6 +21,7 @@ function Detail() {
   return (
     <>
       <div className="detaill">
+        <h1 style={{fontFamily:"cursive"}}>Special for teacher</h1>
       <Link to = '/home'><Button variant="contained">Go Back</Button></Link>
       <h1 >Detail Page</h1>
       </div>
