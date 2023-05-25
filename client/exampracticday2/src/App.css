@@ -10,7 +10,11 @@ header{
   display: flex;
   justify-content: space-evenly;
   padding: 30px;
-  background-color: #464d5d;
+  background-color: #464d5dc2;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 }
 ul{
   display: flex;
@@ -30,5 +34,160 @@ ul li:hover{
   background: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg.webp);
   width: 100%;
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
+}
+.title{
+  text-align: center;
+  padding: 180px;
+}
+.title h1{
+  font-size: 55px;
+  color: white;
+}
+.title p{
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.title-btn{
+  margin-top: 20px;
+  width: 180px;
+  height: 45px;
+  border: 1px solid red;
+  background: none;
+  transition: .5s;
+  color: white;
+}
+.title-btnn{
+  margin-top: 20px;
+  width: 180px;
+  height: 45px;
+  border: 1px solid rgb(23, 112, 141);
+  background: none;
+  transition: .5s;
+  color: white;
+}
+.title-btn:hover{
+  background-color: #d73e4d;
+}
+.title-btnn:hover{
+  background-color: rgb(26, 70, 151);
+}
+.sentences h1{
+  font-size: 40px;
+  padding: 30px;
+}
+.line{
+  width: 100px;
+  border: 1px solid #d73e4d;
+  position: relative;
+  left: 900px;
+
+}
+.sentences p{
+  color: gray;
+  margin-top: 10px;
+
+}
+
+.sentences{
+  text-align: center;
+}
+
+.cards{
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.search-filter{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card-work{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.card-work h2{
+  color: gray;
+}
+
+.end-cards{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.read{
+  color: black;
+}
+.read:hover{
+  color: red;
+}
+.hidden{
+  overflow: hidden;
+}
+.end-cards h3{
+  font-size: 18px;
+}
+.end-cards p{
+color: gray;
+}
+
+.img{
+  transition: .5s;
+}
+.img:hover{
+  transform: scale(1.2);
+}
+/* .func-class h1 p{
+  text-align: center
+} */
+.name{
+  text-align:center ;
+}
+.name:hover{
+  color:#d73e4d ;
+}
+.price{
+  text-align:center ;
+  font-size: 18px;
+}
+.desc{
+  text-align:center ;
+  font-size: 18px;
+}
+.icon{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon .icons{
+  text-align: center;
+  font-size: 70px;
+}
+.icon{
+  position: relative;
+  left:75px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
 }
