@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: #464d5d;
+}
+ul{
+  display: flex;
+  gap: 20px;
+}
+ul li{
+  color: white;
+  transition: .5s;
+}
+.ulnav{
+  margin-top: 16px;
+}
+ul li:hover{
+  color: #d73e4d;
+}
+.image-hero{
+  background: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg.webp);
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+}
