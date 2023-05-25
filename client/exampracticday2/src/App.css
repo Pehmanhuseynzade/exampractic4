@@ -191,3 +191,14 @@ color: gray;
   gap: 20px;
   padding: 30px;
 }
+
+.detaill{
+  text-align: center;
+  margin-top: 100px;
+  padding: 100px;
+}
+.detaillcard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

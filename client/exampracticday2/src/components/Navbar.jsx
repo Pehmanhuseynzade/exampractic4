@@ -10,7 +10,7 @@ function Navbar() {
      </div>
      <div className='ulnav'>
           <ul>
-               <Link to = ''>
+               <Link to = 'home'>
                     <li>HOME</li>
                </Link>
                <Link to = 'add'>

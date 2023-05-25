@@ -31,6 +31,6 @@ export const deleteDatas = async(id)=>{
 
 //POST
 
-export const postDatas = async(payload,id)=>{
-     await axios.post(`${BASE_URL}/${id}`,payload)
+export const postDatas = async(payload)=>{
+     await axios.post(`${BASE_URL}`,payload)
 }

@@ -95,14 +95,14 @@ function Home() {
                 }}
               >
                 <div className="icon">
-                <i className={`fa-solid ${d.imageURL} icons`}></i>
+                  <i className={`fa-solid ${d.imageURL} icons`}></i>
                 </div>
                 <div className="func-class">
                   <h1 className="name">{d.name}</h1>
                   <p className="price">{d.price}</p>
                   <p className="desc">{d.desc}</p>
                 </div>
-                <div style={{display:"flex",gap:"20px"}}> 
+                <div style={{ display: "flex", gap: "20px" }}>
                   <button
                     onClick={() => handleDelete(d._id)}
                     style={{ color: "black" }}
@@ -110,12 +110,11 @@ function Home() {
                   >
                     DELETE
                   </button>
-                  <button
-                    style={{ color: "black" }}
-                    className="title-btnn"
-                  >
-                    VIEW DETAILS
-                  </button>
+                  <Link to = {`/detail/${d._id}`}>
+                    <button style={{ color: "black" }} className="title-btnn">
+                      VIEW DETAILS
+                    </button>
+                  </Link>
                 </div>
               </Card>
             ))}

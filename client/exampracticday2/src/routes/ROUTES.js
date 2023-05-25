@@ -9,7 +9,7 @@ export const ROUTER = [
           element:<Mainroot/>,
           children:[
                {
-                    path:'',
+                    path:'home',
                     element:<Home/>
                },
                {
